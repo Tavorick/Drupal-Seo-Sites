@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default Profile Webform feature.
+ */
+
+include_once 'default_profile_node_webform.features.inc';

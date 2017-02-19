@@ -1,0 +1,130 @@
+; Packaging information for seo_sites_default_build
+name = "Seo Sites Default build"
+description = ""
+core = "7.x"
+; ----------
+; Afhankelijkheden
+; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+; CTools
+
+; Chaos tool suite
+dependencies[] = ctools
+; Configuration
+
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = php
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Development
+dependencies[] = profiler_builder
+dependencies[] = profiler_builder_extras
+; Display Suite
+dependencies[] = ds
+dependencies[] = ds_extras
+dependencies[] = ds_format
+dependencies[] = ds_forms
+dependencies[] = ds_search
+dependencies[] = ds_ui
+; Media
+dependencies[] = iek
+dependencies[] = imce
+; Multilingual
+dependencies[] = l10n_update
+; Other
+dependencies[] = clone
+dependencies[] = colorbox
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = google_plusone
+dependencies[] = libraries
+dependencies[] = linkchecker
+dependencies[] = navigation404
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = search404
+dependencies[] = site_map
+dependencies[] = token
+; Path management
+dependencies[] = globalredirect
+; Rules
+dependencies[] = rules
+dependencies[] = rules_admin
+dependencies[] = rules_conditional
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_app_links
+dependencies[] = metatag_dc
+dependencies[] = metatag_dc_advanced
+dependencies[] = metatag_facebook
+dependencies[] = metatag_favicons
+dependencies[] = metatag_google_cse
+dependencies[] = metatag_google_plus
+dependencies[] = metatag_hreflang
+dependencies[] = metatag_importer
+dependencies[] = metatag_mobile
+dependencies[] = metatag_opengraph
+dependencies[] = metatag_opengraph_products
+dependencies[] = metatag_twitter_cards
+dependencies[] = metatag_verification
+dependencies[] = yoast_seo
+; Spam control
+dependencies[] = honeypot
+; Statistics
+dependencies[] = googleanalytics
+; User interface
+dependencies[] = ckeditor
+; Variable
+dependencies[] = variable
+dependencies[] = variable_admin
+dependencies[] = variable_realm
+dependencies[] = variable_store
+dependencies[] = variable_views
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; XML sitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_menu
+dependencies[] = xmlsitemap_node
+dependencies[] = xmlsitemap_taxonomy
+; Features
+dependencies[] = features
+dependencies[] = features_builder
+dependencies[] = features_builder_default
+

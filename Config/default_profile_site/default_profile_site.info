@@ -1,0 +1,10 @@
+name = Default Profile Site
+core = 7.x
+package = Configuration
+dependencies[] = admin_menu
+dependencies[] = googleanalytics
+dependencies[] = honeypot
+dependencies[] = module_filter
+dependencies[] = search
+dependencies[] = webform
+features[features_api][] = api:2

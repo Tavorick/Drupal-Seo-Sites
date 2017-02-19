@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default Profile Views feature.
+ */
+
+include_once 'default_profile_views.features.inc';

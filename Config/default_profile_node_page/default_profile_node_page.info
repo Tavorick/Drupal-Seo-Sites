@@ -1,0 +1,15 @@
+name = Default Profile Basic page
+core = 7.x
+package = Content
+dependencies[] = colorbox
+dependencies[] = default_profile_fields
+dependencies[] = features
+dependencies[] = image
+features[features_api][] = api:2
+features[field_instance][] = node-page-body
+features[field_instance][] = node-page-field_galerij
+features[field_instance][] = node-page-field_hoofdafbeelding
+features[node][] = page
+features_exclude[field_base][] = body
+features_exclude[field_base][] = field_galerij
+features_exclude[field_base][] = field_hoofdafbeelding

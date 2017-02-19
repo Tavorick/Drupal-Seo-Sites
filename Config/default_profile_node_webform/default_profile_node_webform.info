@@ -1,0 +1,9 @@
+name = Default Profile Webform
+core = 7.x
+package = Content
+dependencies[] = default_profile_fields
+dependencies[] = features
+features[features_api][] = api:2
+features[field_instance][] = node-webform-field_body
+features[node][] = webform
+features_exclude[field_base][] = field_body

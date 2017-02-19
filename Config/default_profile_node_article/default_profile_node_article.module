@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default Profile Article feature.
+ */
+
+include_once 'default_profile_node_article.features.inc';

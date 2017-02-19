@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Default Profile Media feature.
+ */
+
+include_once 'default_profile_media.features.inc';
